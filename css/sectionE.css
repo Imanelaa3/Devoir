@@ -1,0 +1,71 @@
+:root{
+    --text-color: rgba(36, 128, 36, 0.836);
+}
+
+h4{
+    color: var(--text-color);
+    margin: 5px;
+}
+
+#contactUs{
+    
+    color: gray;
+    text-align: center;
+    font-size: 2rem;
+    font-weight:500;
+}
+
+
+
+
+#contact{
+    display:grid;
+    grid-template-rows: 50px 1fr ;
+    justify-items: center;
+}
+
+#contact #littleButon{
+
+    width: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+label{
+    color: gray;
+    text-align: center;
+    font-size: 1rem;
+    font-weight:500;
+
+}
+
+input{
+    border: 1px grey solid
+}
+
+#sectionE{
+    display: grid;
+    margin: 20px;
+}
+
+@media screen and (min-width:992px) {
+    #sectionE{
+    grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+#logo i{
+    font-size: 2em;    
+    
+}
+
+footer{
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}

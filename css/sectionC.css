@@ -1,0 +1,57 @@
+:root{
+    --text-color: rgba(36, 128, 36, 0.836);
+}
+
+@font-face {
+    font-family: cataraman;
+    src: url(../font/catamaran/Catamaran.ttf);
+}
+@font-face {
+    font-family: granH;
+    src: url(../font/Grand_Hotel/GrandHotel-Regular.ttf);
+}
+.card{
+    margin: 20px;
+    border-color: transparent;
+}
+#sectionC{
+    
+
+    display: grid;
+    margin: 20px;
+    grid-template-rows: repeat(4, 1fr) ;
+    justify-items: center;
+
+}
+
+
+@media screen and (min-width:768px) {
+    #sectionC{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    }
+    #check{
+        grid-column: 1/span 2
+
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    #sectionC{
+    grid-template-columns: auto 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    
+    }
+    #check{
+        grid-column: 1
+
+    }
+    
+}
+
+.card-text2{
+    color: var(--text-color);
+    font-weight: 700;
+}

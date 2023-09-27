@@ -1,0 +1,16 @@
+
+
+@import url(./css/sectionA.css);
+@import url(./css/sectionB.css);
+@import url(./css/header.css);
+@import url(./css/sectionC.css);
+@import url(./css/sectionD.css);
+@import url(./css/sectionE.css);
+
+p{
+    color: rgb(79, 79, 245);
+}
+
+h2{
+    font-size: 0.5rem;
+}
